@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.dockerfile
+
 tasks:
   - before: |
       git clone https://github.com/zpthree/gitpod-dotfiles.git ~/dotfiles
