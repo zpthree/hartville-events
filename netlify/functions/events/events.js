@@ -1,7 +1,7 @@
 const chromium = require('chrome-aws-lambda');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-const autoScroll = require('./lib/autoScroll');
+const autoScroll = require('../../lib/autoScroll');
 
 module.exports = function(app) {
   app.get('/', async (req, res) => {
